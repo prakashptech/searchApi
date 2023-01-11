@@ -60,11 +60,11 @@ export default function Search() {
 
             .map((res) => {
               return (
-                <li>
-                  {res.email}
-                  {res.name}
-                  {res.city}
-                </li>
+                <ul>
+                  <li>{res.email}</li>
+                  <li>{res.name}</li>
+                  <li>{res.city}</li>
+                </ul>
               );
             })}
         </p>
